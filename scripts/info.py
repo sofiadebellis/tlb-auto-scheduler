@@ -21,7 +21,7 @@ with open(config / 'instructors.tsv') as instructors_file:
         for field, expected in [
             ('courseReason', ''),
             ('country', 'Australia'),
-            ('pref_1', 'COMP1521'),
+            ('pref_1', 'COMP1511'),
             ('otherInfo', ''),
         ]:
             response = application.get(field, None)
